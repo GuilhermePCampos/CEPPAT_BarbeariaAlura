@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -7,6 +8,7 @@
   <link rel="stylesheet" href="reset.css">
   <link rel="stylesheet" href="style.css">
 </head>
+
 <body>
   <header>
     <div class="caixa">
@@ -22,17 +24,38 @@
   </header>
 
   <main class="contato">
-    <h1>Formulario</h1>
+    <h1>Formulario de contato</h1>
 
     <form action="">
       <label for="nomesobrenome">Nome Completo</label>
-      <input type="text" id="nomesobrenome">      
+      <input type="text" id="nomesobrenome" class="input-padrao">
 
       <label for="email">Email</label>
-      <input type="text" id="email"> 
+      <input type="text" id="email" class="input-padrao">
 
       <label for="telefone">Telefone</label>
-      <input type="text" id="telefone"> 
+      <input type="text" id="telefone" class="input-padrao">
+
+
+      <label for="mensagem">Mensagem</label>
+      <textarea cols="70" rows="10" id="mensagem" class="input-padrao"></textarea>
+
+      <!-- Botão Radio -->
+      <div class="tipo-contato">
+        <p>O prefere o nosso contato ?</p>
+        <label for="radio-email"><input type="radio" name="contato" id="radio-email">Email</label>
+        <label for="radio-telefone"><input type="radio" name="contato" id="radio-telefone">Telefone</label>
+        <label for="radio-whatsapp"><input type="radio" name="contato" id="radio-whatsapp">Whatsapp</label>
+      </div>
+
+
+      <label for="checkbox" class="checkbox">
+        <input type="checkbox" name="" id="checkbox">
+        Gostaria de receber nossas novidades por email?
+      </label>
+
+      <input type="submit" value="Enviar Formulario" class="input-padrao">
+
     </form>
 
   </main>
@@ -44,16 +67,17 @@
         <p>Copyright Barbearia Alura</p>
         <p>Desenvolvido por Guilherme Campos</p>
       </div>
-  
+
       <div class="footer-info">
         <ul>
           <li>Sobre a Barbearia</li>
           <li>Duvidas frequentes</li>
           <li>Contato</li>
         </ul>
-      </div>      
+      </div>
     </div>
-    
+
   </footer>
 </body>
+
 </html>
