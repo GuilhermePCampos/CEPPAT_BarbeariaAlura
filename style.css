@@ -114,7 +114,8 @@ footer {
 }
 
 main {
-
+  width: 940px;
+  margin: 0 auto;  
 }
 
 /* Contato.html */
@@ -123,7 +124,7 @@ form {
   margin: 40px 0;
 }
 
-form label, p {
+form label, legend {
   font-size: 20px;
   margin: 0 0 10px;
 }
@@ -167,7 +168,7 @@ form label {
 /* Tabela */
 
 table {
-  margin: 20x 0 40px;
+  margin: 20px 0 40px;
 }
 
 thead {
@@ -278,3 +279,6 @@ td, th {
   margin: 2em auto;
 }
 
+.contatoo {
+  margin: 20px 90px;
+}
