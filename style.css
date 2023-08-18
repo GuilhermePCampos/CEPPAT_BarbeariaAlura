@@ -249,6 +249,7 @@ td, th {
 
 .itens:nth-child(3) {
   font-style: italic;
+  color: red;
 }
 
 .itens:nth-child(2n) {
@@ -283,4 +284,12 @@ td, th {
 
 .contatoo {
   margin: 20px 90px;
+}
+
+.titulo-principal::before {
+  content: "[\1F7CA"
+}
+
+.titulo-principal::after{
+  content: "\1F7CA]";  
 }
