@@ -194,6 +194,7 @@ td, th {
   font-size: 2em;
   margin: 0 0 1em;
   clear: left;
+  text-shadow: 4px 4px 2px rgba(0,0,0,0.51);
 }
 
 .principal {
@@ -293,3 +294,44 @@ td, th {
 .titulo-principal::after{
   content: "\1F7CA]";  
 }
+
+.itens::before {
+  content: "\1F7CA"; 
+}
+
+/* /FILHO DIRETO */
+main > p {
+  background: red;
+}
+
+/* PRIMEIRO IRMÃO */
+img + p {
+  background: blue;
+}
+
+.utensilios {
+  width: calc(40% - (20px));
+}
+
+.imagem-beneficios {
+  width: 60%;
+  opacity: 1;
+  transition: 800ms;
+}
+
+.imagem-beneficios:hover {
+  opacity: 0.1;  
+}
+
+.imagem-beneficios {
+  width: 60%;
+  opacity: 1;
+  transition: 400ms;
+  box-shadow: 10px 10px  #000000;
+}
+
+h2 {
+  text-shadow: 4px 4px 2px rgba(0,0,0,0.51);
+}
+
+
